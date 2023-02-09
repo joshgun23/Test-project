@@ -1,1 +1,92 @@
-fadfa
+Microsoft Windows [Version 10.0.22000.1455]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\16672>cd C:\Users\16672\OneDrive\Desktop\Html
+
+C:\Users\16672\OneDrive\Desktop\Html>git init
+Initialized empty Git repository in C:/Users/16672/OneDrive/Desktop/Html/.git/
+
+C:\Users\16672\OneDrive\Desktop\Html>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Html_Laptop.html
+        Images/
+        Screenshot_1.png
+        Screenshot_5.png
+        Welcome.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\16672\OneDrive\Desktop\Html>git add .
+
+C:\Users\16672\OneDrive\Desktop\Html>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Html_Laptop.html
+        new file:   Images/Screenshot_28.png
+        new file:   Screenshot_1.png
+        new file:   Screenshot_5.png
+        new file:   Welcome.html
+
+
+C:\Users\16672\OneDrive\Desktop\Html>git commit -m"Initial Commit"
+[main (root-commit) 8d6a928] Initial Commit
+ 5 files changed, 55 insertions(+)
+ create mode 100644 Html_Laptop.html
+ create mode 100644 Images/Screenshot_28.png
+ create mode 100644 Screenshot_1.png
+ create mode 100644 Screenshot_5.png
+ create mode 100644 Welcome.html
+
+C:\Users\16672\OneDrive\Desktop\Html>git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Screenshot_2.png
+        Screenshot_3.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\16672\OneDrive\Desktop\Html>git add .
+
+C:\Users\16672\OneDrive\Desktop\Html>git commit -m"second change"
+[main b1031d5] second change
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Screenshot_2.png
+ create mode 100644 Screenshot_3.png
+
+C:\Users\16672\OneDrive\Desktop\Html>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\16672\OneDrive\Desktop\Html>git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fafadfa.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\16672\OneDrive\Desktop\Html>git add .
+
+C:\Users\16672\OneDrive\Desktop\Html>git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   fafadfa.txt
+
+
+C:\Users\16672\OneDrive\Desktop\Html>git commit -m"new added"
+[main 265466d] new added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fafadfa.txt
+
+C:\Users\16672\OneDrive\Desktop\Html>
